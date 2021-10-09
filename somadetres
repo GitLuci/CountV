@@ -1,0 +1,24 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        int a,b,c,d;
+        Scanner leitor = new Scanner(System.in);
+        System.out.print("Introduza o Numero de a: ");
+        a = leitor.nextInt();
+        System.out.print("Introduza o Numero de b: ");
+        b = leitor.nextInt();
+        System.out.print("Introduza o Numero de c: ");
+        c = leitor.nextInt();
+        d = a + b + c;
+        System.out.println(String.format("quantia é de %d: ",d));
+
+        //sou = system.out.print//
+
+    }
+}
